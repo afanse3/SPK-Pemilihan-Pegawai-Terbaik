@@ -144,10 +144,16 @@
                 <h5 class="m-0">Bobot Kriteria</h5>
               </div>
               <div class="card-body">
+              <?php if($this->session->flashdata("edit_kriteria") == TRUE): ?>
+              <div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fas fa-check"></i> <?= $this->session->flashdata("edit_kriteria");?>
+                </div>
+              <?php endif; ?>
                 <table id="testTable" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>#</th>
+                    <th>No.</th>
                     <th>Kriteria</th>
                     <th>Atribut</th>
                     <th>Bobot</th>

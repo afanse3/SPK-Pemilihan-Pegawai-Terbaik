@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Edit Data Penilaian</title>
+  <title>Tambah Data Penilaian</title>
 
   <link rel="stylesheet" href="<?php echo base_url()?>assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
@@ -35,7 +35,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="beranda" class="brand-link">
-      <img src="dist/img/avatar-bisnis.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="../../assets/img/avatar-bisnis.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">SPK Pegawai Terbaik</span>
     </a>
@@ -45,7 +45,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/jenderal.png" class="img-circle elevation-2" alt="User Image">
+          <img src="../../assets/img/jenderal.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="beranda" class="d-block"><?php echo $this->session->userdata('username'); ?></a>
@@ -149,7 +149,7 @@
                         <input type="hidden" name="id_pegawai" value="<?= $id_pegawai ?>">
                     </div>
                     <div class="form-group">
-                        <label for="edit_bobotKriteria">Tanggung Jawab (C1)</label>
+                        <label for="edit_bobotKriteria">Tanggung Jawab (C1)*</label>
                         <select class="form-control" name="c1">
                             <?php foreach($c1 as $value) : ?>
                               <option></option>
@@ -158,7 +158,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="edit_namaKriteria">Kemampuan (C2)</label>
+                        <label for="edit_namaKriteria">Kemampuan (C2)*</label>
                         <select class="form-control" name="c2">
                             <?php foreach($c2 as $value) : ?>
                               <option></option>
@@ -167,7 +167,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="edit_namaKriteria">Taat Peraturan (C3)</label>
+                        <label for="edit_namaKriteria">Taat Peraturan (C3)*</label>
                         <select class="form-control" name="c3">
                             <?php foreach($c3 as $value) : ?>
                               <option></option>
@@ -176,7 +176,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="edit_namaKriteria">Mangkir (C4)</label>
+                        <label for="edit_namaKriteria">Mangkir (C4)*</label>
                         <select class="form-control" name="c4">
                             <?php foreach($c4 as $value) : ?>
                               <option></option>
@@ -185,7 +185,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="edit_namaKriteria">Keterlambatan Pengerjaan (C5)</label>
+                        <label for="edit_namaKriteria">Keterlambatan Pengerjaan (C5)*</label>
                         <select class="form-control" name="c5">
                             <?php foreach($c5 as $value) : ?>
                               <option></option>
@@ -217,7 +217,6 @@
   <footer class="main-footer">
     <strong>Hak Cipta &copy; 2020 </strong>Arfandi Ahmad untuk Jenderal Software
   </footer>
-</div>
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->

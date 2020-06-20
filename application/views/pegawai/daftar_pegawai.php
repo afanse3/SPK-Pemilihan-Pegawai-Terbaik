@@ -150,6 +150,12 @@
                 <i class="icon fas fa-check"></i> <?= $this->session->flashdata("tambah_pegawai");?>
                 </div>
               <?php endif; ?>
+              <?php if($this->session->flashdata("edit_pegawai") == TRUE): ?>
+              <div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fas fa-check"></i> <?= $this->session->flashdata("edit_pegawai");?>
+                </div>
+              <?php endif; ?>
               <?php if($this->session->flashdata("hapus_pegawai") == TRUE): ?>
               <div class="alert alert-success alert-dismissible">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -159,7 +165,7 @@
                 <table id="testTable" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>#</th>
+                    <th>No.</th>
                     <th>Nama Pegawai</th>
                     <th>Pekerjaan</th>
                     <th>Opsi</th>
@@ -186,7 +192,7 @@
                     </tr>";
                     }
                   }else{
-                    echo "<tr><td align='center'>Data tidak ada.</td></tr>";
+                    echo "<tr><td align='center'>Tidak ada data.</td></tr>";
                   }
                   ?>
                   </tbody>
@@ -204,10 +210,22 @@
           <div class="col-lg-12">
             <div class="card card-teal card-outline">
               <div class="card-body">
+              <?php if($this->session->flashdata("tambah_penilaian") == TRUE): ?>
+              <div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fas fa-check"></i> <?= $this->session->flashdata("tambah_penilaian");?>
+                </div>
+              <?php endif; ?>
+              <?php if($this->session->flashdata("hapus_penilaian") == TRUE): ?>
+              <div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fas fa-check"></i> <?= $this->session->flashdata("hapus_penilaian");?>
+                </div>
+              <?php endif; ?>
                 <table id="testTable2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>#</th>
+                    <th>No.</th>
                     <th>Nama Pegawai</th>
                     <th>Pekerjaan</th>
                     <th>Opsi</th>
@@ -251,15 +269,6 @@
   </div>
   </div>
   <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-    <div class="p-3">
-      <h5>Title</h5>
-      <p>Sidebar content</p>
-    </div>
-  </aside>
-  <!-- /.control-sidebar -->
-
   <div class="modal fade" id="modal-pegawai">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -272,11 +281,11 @@
         <?php echo form_open("pegawai/tambah"); ?>
         <div class="modal-body">
           <div class="form-group">
-            <label for="namaPegawai">Nama Pegawai</label>
+            <label for="namaPegawai">Nama Pegawai*</label>
             <input type="text" class="form-control" name="input_nama_pegawai" placeholder="Masukkan nama pegawai..." value="<?php echo set_value('input_nama_pegawai'); ?>" required>
           </div>
           <div class="form-group">
-            <label for="pekerjaan">Pekerjaan</label>
+            <label for="pekerjaan">Pekerjaan*</label>
             <input type="text" class="form-control" name="input_pekerjaan" placeholder="Masukkan pekerjaan pegawai..." value="<?php echo set_value('input_pekerjaan'); ?>" required>
           </div>
         </div>

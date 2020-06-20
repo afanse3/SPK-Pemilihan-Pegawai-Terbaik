@@ -142,6 +142,29 @@
                 <h5 class="m-0">Selamat datang di SPK Pemilihan Pegawai Terbaik <?= $this->session->userdata('username'); ?>!</h5>
             </div>
             <div class="card-body">
+            <h5>Cara Penggunaan:</h5><br>
+            <ol>
+            <p>1. Untuk melihat kriteria, dapat menuju menu <a href="Kriteria">Bobot Kriteria</a>, di mana Admin dapat mengubah bobot dari kriteria tersebut dengan ketentuan total bobot = 1 (satu).</p>
+            <p>2. Pada menu <a href="Kriteria">Nilai Sub Kriteria</a>, berisikan tentang pilihan dari kriteria-kriteria dan nilai dari pilihan tersebut. Nilai ini yang akan masuk pada perhitungan nantinya.</p>
+            <p>3. Pada menu <a href="Pegawai">Daftar Pegawai</a> terdapat dua tabel, yaitu:
+            </p>
+            <ol>
+            <p>a. Daftar Pegawai: submenu ini berisikan daftar pegawai, di mana Admin dapat menambah, mengubah, dan menghapus data pegawai.</p>
+            <p>b. Data Pegawai + Penilaian: submenu ini berisikan list pegawai beserta penilaiannya. Penilaian terhadap suatu pegawai dapat dilihat pada opsi Nilai. Jika belum dinilai, maka akan mengarah ke laman tambah penilaian, jika sudah, akan ditampilkan penilaian tersebut.</p>
+            </ol>
+            <p>4. Pada menu <a href="Perhitungan">Perhitungan</a>, terdapat empat tabel, yaitu:
+            </p>
+            <ol>
+            <p>a. Data Penilaian Pegawai: menampilkan penilaian yang sudah diberikan pada pegawai.
+            </p>
+            <p>b. Nilai dari Data Pegawai: menampilkan konversi dari penilaian pegawai menjadi angka, angka tersebut berasal dari menu Nilai Sub Kriteria.
+            </p>
+            <p>c. Hasil Perhitungan Normalisasi: Hasil dari perhitungan penilaian yang dinormalisasi, sesuai rumus SAW.
+            </p>
+            <p>d. Nilai Ranking dari Normalisasi: Hasil perhitungan total dari perhitungan normalisasi dengan perkalian bobot. Dan total yang tertinggi ialah pegawai terbaik.
+            </p>
+            </ol>
+            </ol>
                 
             </div>
             <!-- /.card-body -->

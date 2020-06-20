@@ -137,13 +137,13 @@
           <div class="col-lg-12">
             <div class="card card-teal card-outline">
               <div class="card-header">
-                <h5 class="m-0">Data Pegawai</h5>
+                <h5 class="m-0">Data Penilaian Pegawai</h5>
               </div>
               <div class="card-body">
                 <table class="table table-bordered table-hover">
                     <thead>
                     <tr>
-                      <th>#</th>
+                      <th>No.</th>
                       <th>Nama Pegawai</th>
                       <th>C1</th>
                       <th>C2</th>
@@ -189,7 +189,7 @@
                 <table class="table table-bordered table-hover">
                     <thead>
                     <tr>
-                      <th>#</th>
+                      <th>No.</th>
                       <th>Nama Pegawai</th>
                       <th>C1</th>
                       <th>C2</th>
@@ -247,7 +247,7 @@
                 <table class="table table-bordered table-hover">
                     <thead>
                     <tr>
-                      <th>#</th>
+                      <th>No.</th>
                       <th>Nama Pegawai</th>
                       <th>C1</th>
                       <th>C2</th>
@@ -291,7 +291,7 @@
       </div><!-- /.container-fluid -->
     </div>
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="card card-teal card-outline">
             <div class="card-header">
               <h5 class="m-0">Nilai Ranking dari Normalisasi</h5>
@@ -300,7 +300,7 @@
               <table id="tabelPerhitungan" class="table table-bordered table-hover">
                 <thead>
                 <tr>
-                  <th>#</th>
+                  <th>No.</th>
                   <th>Nama Pegawai</th>
                   <th>Total</th>
                 </tr>
@@ -340,17 +340,6 @@
         </div>
       <!-- /.row -->
       </div><!-- /.container-fluid -->
-      <div class="col-lg-4">
-          <div class="card card-teal card-outline">
-              <div class="card-header">
-                  <h5 class="m-0">Kesimpulan</h5>
-              </div>
-              <div class="card-body">
-                <p>
-                </p>
-              </div>
-          </div>
-      </div>
     </div>
     </div>
   <!-- /.content-wrapper -->

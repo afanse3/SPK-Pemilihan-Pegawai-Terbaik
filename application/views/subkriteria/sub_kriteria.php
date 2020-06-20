@@ -155,7 +155,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <table id="testTable" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>#</th>
+                    <th>No.</th>
                     <th>Sub Kriteria</th>
                     <th>Nilai</th>
                   </tr>

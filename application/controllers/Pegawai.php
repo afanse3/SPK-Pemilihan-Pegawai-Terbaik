@@ -35,6 +35,7 @@ class Pegawai extends CI_Controller {
                 //jika validasi sukses atau hasil validasi adalah true
                 $this->pegawaiModel->edit($id_pegawai);
                 //panggil fungsi edit() yang ada di pegawaiModel.php
+                $this->session->set_flashdata('edit_pegawai','Data berhasil diubah.');
                 redirect('pegawai');
             }
         }

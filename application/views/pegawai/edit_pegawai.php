@@ -149,11 +149,11 @@
                     <input type="text" class="form-control" name="input_id_pegawai" value="<?php echo set_value('input_id_pegawai', $pegawai->id_pegawai); ?>" disabled>
                   </div>
                   <div class="form-group">
-                      <label for="edit_namaKriteria">Nama Pegawai</label>
+                      <label for="edit_namaKriteria">Nama Pegawai*</label>
                       <input type="text" class="form-control" name="input_nama_pegawai" value="<?php echo set_value('input_nama_pegawai', $pegawai->nama_pegawai); ?>" required>
                   </div>
                   <div class="form-group">
-                      <label for="edit_bobotKriteria">Pekerjaan</label>
+                      <label for="edit_bobotKriteria">Pekerjaan*</label>
                       <input type="text" class="form-control" name="input_pekerjaan" value="<?php echo set_value('input_pekerjaan', $pegawai->pekerjaan); ?>" required>
                   </div>
               </div>

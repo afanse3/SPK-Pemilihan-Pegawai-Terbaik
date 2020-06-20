@@ -69,7 +69,7 @@ class Nilai extends CI_Controller
         );
         $this->db->insert('nilai', $data_c5);
 
-        //panggil fungsi edit() yang ada di pegawaiModel.php
+        $this->session->set_flashdata('tambah_penilaian', 'Penilaian berhasil dimasukkan.');
         redirect('pegawai');
         //}
 
@@ -86,6 +86,7 @@ class Nilai extends CI_Controller
     public function hapus($id_pegawai)
     {
         $this->nilaiModel->delete($id_pegawai);
+        $this->session->set_flashdata('hapus_penilaian','Penilaian berhasil dihapus.');
         redirect('pegawai');
     }
 

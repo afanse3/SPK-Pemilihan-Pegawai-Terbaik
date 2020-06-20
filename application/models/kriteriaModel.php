@@ -40,7 +40,6 @@ class kriteriaModel extends CI_Model {
     //Fungsi untuk melakukan uah data siswa berdasarkan id pegawai
     public function edit($id_kriteria){
         $data = array(
-            "nama_kriteria" => $this->input->post('input_nama_kriteria'),
             "bobot" => $this->input->post('input_bobot')
         );
 

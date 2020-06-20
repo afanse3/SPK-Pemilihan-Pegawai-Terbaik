@@ -33,7 +33,7 @@ class Kriteria extends CI_Controller {
             //jika user mengklik tombol submit yang ada di form
                 //jika validasi sukses atau hasil validasi adalah true
                 $this->kriteriaModel->edit($id_kriteria);
-                //panggil fungsi edit() yang ada di pegawaiModel.php
+                $this->session->set_flashdata('edit_kriteria','Data berhasil diubah.');
                 redirect('kriteria');
         }
 
