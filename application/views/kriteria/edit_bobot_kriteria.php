@@ -113,14 +113,12 @@
     <!-- /.sidebar -->
   </aside>
 
-  <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-          </div><!-- /.col -->
+          </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="beranda">Beranda</a></li>
@@ -128,13 +126,12 @@
               <li class="breadcrumb-item"><a href="Kriteria">Bobot Kriteria</a></li>
               <li class="breadcrumb-item active">Edit Bobot Kriteria</li>
             </ol>
-          </div><!-- /.col -->
+          </div>
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
 
-    <!-- Main content -->
     <div class="content">
       <div class="container-fluid">
         <div class="row">
@@ -161,7 +158,6 @@
                         <label for="edit_namaKriteria">Bobot</label>
                         <input type="text" class="form-control" name="input_bobot" value="<?php echo set_value('input_bobot', $kriteria->bobot); ?>" required>
                     </div>
-                
               </div>
               <div class="card-footer">
               <a href="<?php echo base_url('kriteria'); ?>"><button type="button" value="Batal" class="btn btn-danger">Batal</button></a>
@@ -170,14 +166,10 @@
                 </button>
               </div>
             <?php echo form_close(); ?>
-              <!-- /.card-body -->
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
-    <!-- /.content -->
     </div>
-  <!-- /.content-wrapper -->
   </div>
   </div>
   <!-- Control Sidebar -->

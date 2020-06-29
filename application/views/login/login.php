@@ -20,7 +20,6 @@
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-  <!-- /.login-logo -->
   <div style="color: red;margin-bottom: 15px;">
   </div>
   <div class="card card-outline card-teal">
@@ -57,20 +56,15 @@
         <div class="row">
           <div class="col-8">
           </div>
-          <!-- /.col -->
           <div class="col-4">
             <button type="submit" class="btn btn-success btn-block" name="login">Masuk</button>
           </div>
-          <!-- /.col -->
         </div>
       </form>
     </div>
-    <!-- /.login-card-body -->
   </div>
 </div>
-<!-- /.login-box -->
 
-<!-- jQuery -->
 <script src="<?php echo base_url('assets/plugins/jquery/jquery.min.js')?>"></script>
 <!-- Bootstrap 4 -->
 <script src="<?php echo base_url('assets/plugins/bootstrap/js/bootstrap.bundle.min.js')?>"></script>

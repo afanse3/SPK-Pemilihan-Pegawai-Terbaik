@@ -132,7 +132,6 @@
     </div>
     <!-- /.content-header -->
 
-    <!-- Main content -->
     <div class="content">
     <div class="container-fluid">
         <div class="row">
@@ -164,17 +163,12 @@
             <p>d. Nilai Ranking dari Normalisasi: Hasil perhitungan total dari perhitungan normalisasi dengan perkalian bobot. Dan total yang tertinggi ialah pegawai terbaik.
             </p>
             </ol>
-            </ol>
-                
+            </ol>           
             </div>
-            <!-- /.card-body -->
         </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
     </div>
-    <!-- /.content -->
     </div>
-<!-- /.content-wrapper -->
 </div>
 </div>
 <!-- Control Sidebar -->

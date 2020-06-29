@@ -39,7 +39,6 @@ class Pegawai extends CI_Controller {
                 redirect('pegawai');
             }
         }
-
         $data['pegawai'] = $this->pegawaiModel->view_by($id_pegawai);
         $this->load->view('pegawai/edit_pegawai', $data);
     }

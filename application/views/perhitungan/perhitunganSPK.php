@@ -172,12 +172,9 @@
                     </tbody>
                   </table>
               </div>
-              <!-- /.card-body -->
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
-    <!-- /.content -->
       <br>
         <div class="row">
           <div class="col-lg-12">
@@ -231,10 +228,8 @@
                     </tfoot>
                   </table>
               </div>
-              <!-- /.card-body -->
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
       <br>
       <div class="row">
@@ -285,10 +280,8 @@
                     </tbody>
                   </table>
             </div>
-            <!-- /.card-body -->
         </div>
-      <!-- /.row -->
-      </div><!-- /.container-fluid -->
+      </div>
     </div>
     <div class="row">
         <div class="col-lg-12">
@@ -336,13 +329,10 @@
                 </tbody>
               </table>
             </div>
-            <!-- /.card-body -->
         </div>
-      <!-- /.row -->
-      </div><!-- /.container-fluid -->
+      </div>
     </div>
     </div>
-  <!-- /.content-wrapper -->
   </div>
   </div>
   <!-- Control Sidebar -->

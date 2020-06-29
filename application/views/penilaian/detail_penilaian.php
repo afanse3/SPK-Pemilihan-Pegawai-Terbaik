@@ -164,15 +164,11 @@
               </table>
               <hr>
               <a href="<?php echo base_url("pegawai"); ?>"><button type="button" value="Batal" class="btn btn-primary float-right"><i class="fas fa-undo"></i> Kembali</button></a>
-              <!-- /.card-body -->
           </div>
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
-    <!-- /.content -->
     </div>
-  <!-- /.content-wrapper -->
   </div>
   </div>
   <!-- Control Sidebar -->

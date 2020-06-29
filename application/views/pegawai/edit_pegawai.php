@@ -164,14 +164,10 @@
                 </button>
               </div>
               <?php echo form_close(); ?>
-              <!-- /.card-body -->
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
-    <!-- /.content -->
     </div>
-  <!-- /.content-wrapper -->
   </div>
   </div>
 

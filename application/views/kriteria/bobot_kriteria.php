@@ -184,14 +184,10 @@
                   </tbody>
                 </table>
               </div>
-              <!-- /.card-body -->
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
-    <!-- /.content -->
     </div>
-  <!-- /.content-wrapper -->
   </div>
   </div>
   <!-- Control Sidebar -->

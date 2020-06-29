@@ -138,7 +138,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </div>
     <!-- /.content-header -->
 
-    <!-- Main content -->
     <div class="content">
       <div class="container-fluid">
         <div class="row">
@@ -181,8 +180,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
       </div>
     </div>
-    
-
   </div>
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

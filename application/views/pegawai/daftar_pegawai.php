@@ -133,7 +133,6 @@
     </div>
     <!-- /.content-header -->
 
-    <!-- Main content -->
     <div class="content">
       <div class="container-fluid">
         <div class="row">
@@ -198,12 +197,9 @@
                   </tbody>
                 </table>
               </div>
-              <!-- /.card-body -->
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
-
       <br>
         <h3>Data Pegawai + Penilaian</h3>
         <div class="row">
@@ -258,14 +254,11 @@
                   </tbody>
                 </table>
               </div>
-              <!-- /.card-body -->
           </div>
-        <!-- /.row -->
-        </div><!-- /.container-fluid -->
+        </div>
       </div>
       <br>
     </div>
-  <!-- /.content-wrapper -->
   </div>
   </div>
   <!-- Control Sidebar -->
@@ -295,9 +288,7 @@
         </div>
         </div>
         <?php echo form_close(); ?>
-      <!-- /.modal-content -->
     </div>
-    <!-- /.modal-dialog -->
   </div>
   <!-- /.modal -->
   <!-- Main Footer -->
